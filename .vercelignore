@@ -1,0 +1,17 @@
+# Python tooling — runs locally / in GitHub Actions, never on Vercel
+refresh.py
+requirements.txt
+.venv/
+__pycache__/
+*.pyc
+
+# Local config / secrets
+.env
+config.json
+service-account*.json
+
+# CI workflow
+.github/
+
+# OS
+.DS_Store
