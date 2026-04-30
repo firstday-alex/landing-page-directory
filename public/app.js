@@ -123,8 +123,15 @@ function sortRows(rows) {
   return rows.slice().sort((a, b) => {
     let av = a[k], bv = b[k];
     if (k === 'tags') { av = (a.tags || []).join(','); bv = (b.tags || []).join(','); }
-    if (av == null) av = '';
-    if (bv == null) bv = '';
+
+    // NULLS LAST — pages missing this value always sort to the bottom,
+    // regardless of asc/desc. Otherwise no-data rows interleave with real data.
+    const aMissing = av == null || av === '';
+    const bMissing = bv == null || bv === '';
+    if (aMissing && bMissing) return 0;
+    if (aMissing) return 1;
+    if (bMissing) return -1;
+
     if (typeof av === 'string' && typeof bv === 'string') return av.localeCompare(bv) * dir;
     return (av - bv) * dir;
   });
@@ -200,7 +207,9 @@ function render() {
   }
 
   const metricsLoaded = state.metricsByPath !== null;
-  const cell = (hasMetrics, val) => hasMetrics ? val : '<span class="skeleton">—</span>';
+  // Skeleton (animated) only while the metrics file is in flight.
+  // Once loaded, pages without GA4 data render plain '—' via fmt helpers.
+  const cell = metricsLoaded ? (val) => val : () => '<span class="skeleton">—</span>';
 
   if (state.filterTag) {
     tbody.innerHTML = renderGrouped(state.filtered, metricsLoaded, cell);
@@ -238,12 +247,12 @@ function renderGrouped(rows, metricsLoaded, cell) {
     const a = g.agg;
 
     const headerCells = `
-      <td class="num">${cell(metricsLoaded, fmt.int(a.sessions))}</td>
-      <td class="num">${cell(metricsLoaded, fmt.pct(a.cvr))}</td>
-      <td class="num">${cell(metricsLoaded, fmt.pct(a.bounce_rate))}</td>
-      <td class="num">${cell(metricsLoaded, fmt.money4(a.revenue_per_session))}</td>
-      <td class="num">${cell(metricsLoaded, fmt.money(a.aov))}</td>
-      <td class="num">${cell(metricsLoaded, fmt.money(a.revenue))}</td>
+      <td class="num">${cell(fmt.int(a.sessions))}</td>
+      <td class="num">${cell(fmt.pct(a.cvr))}</td>
+      <td class="num">${cell(fmt.pct(a.bounce_rate))}</td>
+      <td class="num">${cell(fmt.money4(a.revenue_per_session))}</td>
+      <td class="num">${cell(fmt.money(a.aov))}</td>
+      <td class="num">${cell(fmt.money(a.revenue))}</td>
       <td></td>`;
 
     const header = `
@@ -265,7 +274,6 @@ function renderGrouped(rows, metricsLoaded, cell) {
 }
 
 function renderRow(r, metricsLoaded, cell, indent = false) {
-  const hasMetrics = metricsLoaded && r.sessions != null;
   return `
     <tr${indent ? ' class="grouped"' : ''}>
       <td>
@@ -274,12 +282,12 @@ function renderRow(r, metricsLoaded, cell, indent = false) {
       </td>
       <td>${(r.tags || []).map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('') || '<span class="tag" style="opacity:.4">—</span>'}</td>
       <td>${fmt.date(r.updated_at)}</td>
-      <td class="num">${cell(hasMetrics, fmt.int(r.sessions))}</td>
-      <td class="num">${cell(hasMetrics, fmt.pct(r.cvr))}</td>
-      <td class="num">${cell(hasMetrics, fmt.pct(r.bounce_rate))}</td>
-      <td class="num">${cell(hasMetrics, fmt.money4(r.revenue_per_session))}</td>
-      <td class="num">${cell(hasMetrics, fmt.money(r.aov))}</td>
-      <td class="num">${cell(hasMetrics, fmt.money(r.revenue))}</td>
+      <td class="num">${cell(fmt.int(r.sessions))}</td>
+      <td class="num">${cell(fmt.pct(r.cvr))}</td>
+      <td class="num">${cell(fmt.pct(r.bounce_rate))}</td>
+      <td class="num">${cell(fmt.money4(r.revenue_per_session))}</td>
+      <td class="num">${cell(fmt.money(r.aov))}</td>
+      <td class="num">${cell(fmt.money(r.revenue))}</td>
       <td class="num"><button class="copy-btn" data-url="${escapeHtml(r.url)}">Copy URL</button></td>
     </tr>`;
 }

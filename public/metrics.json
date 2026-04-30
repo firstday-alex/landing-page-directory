@@ -1,1081 +1,11 @@
 {
-  "generated_at": "2026-04-30T19:35:54.796646+00:00",
+  "generated_at": "2026-04-30T19:49:17.142175+00:00",
   "window": {
     "start": "2026-03-31",
     "end": "2026-04-30",
     "days": 30
   },
   "by_path": {
-    "/pages/kcm-sale-producthero-lp": {
-      "sessions": 43341,
-      "engaged_sessions": 13815,
-      "purchases": 284,
-      "revenue": 19113.03,
-      "cvr": 0.0066,
-      "bounce_rate": 0.6812,
-      "revenue_per_session": 0.441,
-      "aov": 67.3
-    },
-    "/pages/kde-3-red-flags-lp": {
-      "sessions": 10548,
-      "engaged_sessions": 3346,
-      "purchases": 20,
-      "revenue": 1054.14,
-      "cvr": 0.0019,
-      "bounce_rate": 0.6828,
-      "revenue_per_session": 0.0999,
-      "aov": 52.71
-    },
-    "/pages/kde-behind-the-science-pu-lp": {
-      "sessions": 7844,
-      "engaged_sessions": 3618,
-      "purchases": 35,
-      "revenue": 2155.6,
-      "cvr": 0.0045,
-      "bounce_rate": 0.5388,
-      "revenue_per_session": 0.2748,
-      "aov": 61.59
-    },
-    "/pages/tdk-new-multi-no-junk-lp": {
-      "sessions": 3314,
-      "engaged_sessions": 1426,
-      "purchases": 51,
-      "revenue": 3150.08,
-      "cvr": 0.0154,
-      "bounce_rate": 0.5697,
-      "revenue_per_session": 0.9505,
-      "aov": 61.77
-    },
-    "/pages/subscribe-and-save-15": {
-      "sessions": 4490,
-      "engaged_sessions": 2861,
-      "purchases": 204,
-      "revenue": 15158.72,
-      "cvr": 0.0454,
-      "bounce_rate": 0.3628,
-      "revenue_per_session": 3.3761,
-      "aov": 74.31
-    },
-    "/pages/tdk-behind-the-science-pu-lp": {
-      "sessions": 473,
-      "engaged_sessions": 157,
-      "purchases": 4,
-      "revenue": 225.41,
-      "cvr": 0.0085,
-      "bounce_rate": 0.6681,
-      "revenue_per_session": 0.4766,
-      "aov": 56.35
-    },
-    "/pages/tdk-behind-the-science-psup-lp": {
-      "sessions": 3514,
-      "engaged_sessions": 1258,
-      "purchases": 104,
-      "revenue": 7259.67,
-      "cvr": 0.0296,
-      "bounce_rate": 0.642,
-      "revenue_per_session": 2.0659,
-      "aov": 69.8
-    },
-    "/pages/faq": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-bad-ingredients-lp": {
-      "sessions": 289,
-      "engaged_sessions": 170,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.4118,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/customer-portal-order-history": {
-      "sessions": 22,
-      "engaged_sessions": 16,
-      "purchases": 1,
-      "revenue": 34.55,
-      "cvr": 0.0455,
-      "bounce_rate": 0.2727,
-      "revenue_per_session": 1.5705,
-      "aov": 34.55
-    },
-    "/pages/trmv-tofu-listicle-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/brain-bts-kids-teens": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/about": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/customer-portal-upcoming-orders": {
-      "sessions": 3,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/doctordeal": {
-      "sessions": 7,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.7143,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-pdp-benefits-reviews": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-sales-behavior-hiddenhunger-bf-auto-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-nbpadd-lp": {
-      "sessions": 2,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/labor-day-collection": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-usp-lp": {
-      "sessions": 2,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-advertorial-behavior-lp": {
-      "sessions": 5,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/ccpa-privacy-policy": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-pdp": {
-      "sessions": 3,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.6667,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-phils-lp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-wellness-beaty-lp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/contact": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-pu-lp": {
-      "sessions": 1672,
-      "engaged_sessions": 620,
-      "purchases": 16,
-      "revenue": 764.08,
-      "cvr": 0.0096,
-      "bounce_rate": 0.6292,
-      "revenue_per_session": 0.457,
-      "aov": 47.75
-    },
-    "/pages/tdk-behind-the-science-lp": {
-      "sessions": 90096,
-      "engaged_sessions": 39914,
-      "purchases": 1105,
-      "revenue": 73453.22,
-      "cvr": 0.0123,
-      "bounce_rate": 0.557,
-      "revenue_per_session": 0.8153,
-      "aov": 66.47
-    },
-    "/pages/get-nerdy-n": {
-      "sessions": 4,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.75,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/sale-alt)": {
-      "sessions": 7,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.7143,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-sales-consolidated-clinical-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/cancelled-subscription": {
-      "sessions": 7,
-      "engaged_sessions": 7,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-pdp": {
-      "sessions": 13,
-      "engaged_sessions": 6,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5385,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-nbb-lp": {
-      "sessions": 3,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3333,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-behind-the-science-lp-3": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/start-subscribe-page": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-sales-behavior-exhaustion-hero-2-lp": {
-      "sessions": 4,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/sale)at": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/making-our-vitamin": {
-      "sessions": 84,
-      "engaged_sessions": 55,
-      "purchases": 1,
-      "revenue": 111.0,
-      "cvr": 0.0119,
-      "bounce_rate": 0.3452,
-      "revenue_per_session": 1.3214,
-      "aov": 111.0
-    },
-    "/pages/tdk-behind-the-science-lp-alt": {
-      "sessions": 4986,
-      "engaged_sessions": 2502,
-      "purchases": 89,
-      "revenue": 6876.33,
-      "cvr": 0.0178,
-      "bounce_rate": 0.4982,
-      "revenue_per_session": 1.3791,
-      "aov": 77.26
-    },
-    "/pages/wds-wellness-beauty-try-lp": {
-      "sessions": 3326,
-      "engaged_sessions": 1305,
-      "purchases": 17,
-      "revenue": 942.82,
-      "cvr": 0.0051,
-      "bounce_rate": 0.6076,
-      "revenue_per_session": 0.2835,
-      "aov": 55.46
-    },
-    "/pages/tdk-behind-the-science-video-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/hidden-hunger": {
-      "sessions": 668,
-      "engaged_sessions": 315,
-      "purchases": 1,
-      "revenue": 33.15,
-      "cvr": 0.0015,
-      "bounce_rate": 0.5284,
-      "revenue_per_session": 0.0496,
-      "aov": 33.15
-    },
-    "/pages/black-friday-products": {
-      "sessions": 154,
-      "engaged_sessions": 90,
-      "purchases": 6,
-      "revenue": 237.43,
-      "cvr": 0.039,
-      "bounce_rate": 0.4156,
-      "revenue_per_session": 1.5418,
-      "aov": 39.57
-    },
-    "/pages/about-us": {
-      "sessions": 230,
-      "engaged_sessions": 151,
-      "purchases": 6,
-      "revenue": 312.28,
-      "cvr": 0.0261,
-      "bounce_rate": 0.3435,
-      "revenue_per_session": 1.3577,
-      "aov": 52.05
-    },
-    "/pages/back-2-school": {
-      "sessions": 4,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/update-subscribe-page": {
-      "sessions": 73,
-      "engaged_sessions": 44,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3973,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-sales-hiddenhunger-lp": {
-      "sessions": 10,
-      "engaged_sessions": 7,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/bundle-and-save": {
-      "sessions": 19,
-      "engaged_sessions": 13,
-      "purchases": 3,
-      "revenue": 286.22,
-      "cvr": 0.1579,
-      "bounce_rate": 0.3158,
-      "revenue_per_session": 15.0642,
-      "aov": 95.41
-    },
-    "/pages/kde-recommended-by-phil-cowley-lp": {
-      "sessions": 8,
-      "engaged_sessions": 8,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kids-bundle-builder-lp-2": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/4-Vitamins-I-Wish-I-Never_bought": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/reviews": {
-      "sessions": 268,
-      "engaged_sessions": 181,
-      "purchases": 9,
-      "revenue": 610.69,
-      "cvr": 0.0336,
-      "bounce_rate": 0.3246,
-      "revenue_per_session": 2.2787,
-      "aov": 67.85
-    },
-    "/pages/mcm-sale-producthero-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-multicart-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-consoliated-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-sales-welcome-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/sale": {
-      "sessions": 30664,
-      "engaged_sessions": 20097,
-      "purchases": 1849,
-      "revenue": 138074.9,
-      "cvr": 0.0603,
-      "bounce_rate": 0.3446,
-      "revenue_per_session": 4.5028,
-      "aov": 74.68
-    },
-    "/pages/amazon-kids-vitamin-listicle-lp": {
-      "sessions": 24061,
-      "engaged_sessions": 9806,
-      "purchases": 2,
-      "revenue": 131.09,
-      "cvr": 0.0001,
-      "bounce_rate": 0.5925,
-      "revenue_per_session": 0.0054,
-      "aov": 65.55
-    },
-    "/pages/kde-behind-the-science-lp-alt": {
-      "sessions": 10352,
-      "engaged_sessions": 4363,
-      "purchases": 105,
-      "revenue": 7090.18,
-      "cvr": 0.0101,
-      "bounce_rate": 0.5785,
-      "revenue_per_session": 0.6849,
-      "aov": 67.53
-    },
-    "/pages/tdk-behind-the-science-ps2-lp": {
-      "sessions": 5522,
-      "engaged_sessions": 1704,
-      "purchases": 53,
-      "revenue": 4372.09,
-      "cvr": 0.0096,
-      "bounce_rate": 0.6914,
-      "revenue_per_session": 0.7918,
-      "aov": 82.49
-    },
-    "/pages/black-friday-sale": {
-      "sessions": 2867,
-      "engaged_sessions": 1993,
-      "purchases": 150,
-      "revenue": 10891.56,
-      "cvr": 0.0523,
-      "bounce_rate": 0.3048,
-      "revenue_per_session": 3.7989,
-      "aov": 72.61
-    },
-    "/pages/sale)": {
-      "sessions": 63,
-      "engaged_sessions": 12,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.8095,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/sale-alt": {
-      "sessions": 1020,
-      "engaged_sessions": 501,
-      "purchases": 43,
-      "revenue": 2977.25,
-      "cvr": 0.0422,
-      "bounce_rate": 0.5088,
-      "revenue_per_session": 2.9189,
-      "aov": 69.24
-    },
-    "/pages/tdk-behind-the-science-mthfr-lp": {
-      "sessions": 3557,
-      "engaged_sessions": 875,
-      "purchases": 32,
-      "revenue": 1798.11,
-      "cvr": 0.009,
-      "bounce_rate": 0.754,
-      "revenue_per_session": 0.5055,
-      "aov": 56.19
-    },
-    "/pages/qr-code-packaging": {
-      "sessions": 162,
-      "engaged_sessions": 107,
-      "purchases": 9,
-      "revenue": 1003.82,
-      "cvr": 0.0556,
-      "bounce_rate": 0.3395,
-      "revenue_per_session": 6.1964,
-      "aov": 111.54
-    },
-    "/pages/exclusive-first-day-offer": {
-      "sessions": 827,
-      "engaged_sessions": 772,
-      "purchases": 14,
-      "revenue": 1021.42,
-      "cvr": 0.0169,
-      "bounce_rate": 0.0665,
-      "revenue_per_session": 1.2351,
-      "aov": 72.96
-    },
-    "/pages/kde-behind-the-science-ctv-lp": {
-      "sessions": 67,
-      "engaged_sessions": 41,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3881,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-school-lp": {
-      "sessions": 866,
-      "engaged_sessions": 288,
-      "purchases": 15,
-      "revenue": 1248.65,
-      "cvr": 0.0173,
-      "bounce_rate": 0.6674,
-      "revenue_per_session": 1.4419,
-      "aov": 83.24
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-lp-alt": {
-      "sessions": 786,
-      "engaged_sessions": 255,
-      "purchases": 15,
-      "revenue": 959.86,
-      "cvr": 0.0191,
-      "bounce_rate": 0.6756,
-      "revenue_per_session": 1.2212,
-      "aov": 63.99
-    },
-    "/pages/playground": {
-      "sessions": 32,
-      "engaged_sessions": 28,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.125,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-consolidated-lp": {
-      "sessions": 7,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.7143,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/4-vitamins-i-wish-i-never-bought": {
-      "sessions": 45,
-      "engaged_sessions": 17,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.6222,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/accessibility": {
-      "sessions": 31,
-      "engaged_sessions": 14,
-      "purchases": 1,
-      "revenue": 23.21,
-      "cvr": 0.0323,
-      "bounce_rate": 0.5484,
-      "revenue_per_session": 0.7487,
-      "aov": 23.21
-    },
-    "/pages/kde-silent-crisis-lp": {
-      "sessions": 13,
-      "engaged_sessions": 4,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.6923,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-sales-behavior-hiddenhunger-lp-2025-open": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kcm-sales-product-hero": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-behind-the-science-gift-lp": {
-      "sessions": 8,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.625,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/special-offer": {
-      "sessions": 28,
-      "engaged_sessions": 11,
-      "purchases": 1,
-      "revenue": 440.64,
-      "cvr": 0.0357,
-      "bounce_rate": 0.6071,
-      "revenue_per_session": 15.7371,
-      "aov": 440.64
-    },
-    "/pages/amazon-advertorial-test": {
-      "sessions": 2,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/behind-the-science-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/a-brain-supplement-for-kids-with-trouble-concentrating-and-making-bad-grades": {
-      "sessions": 2,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-sales-exhaustion-add-on-lp": {
-      "sessions": 2,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/refer-a-friend)": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-new-multi-noobulkopen-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/homepage-b": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-3-red-flags-lander-lp": {
-      "sessions": 3426,
-      "engaged_sessions": 1609,
-      "purchases": 27,
-      "revenue": 1389.3,
-      "cvr": 0.0079,
-      "bounce_rate": 0.5304,
-      "revenue_per_session": 0.4055,
-      "aov": 51.46
-    },
-    "/pages/trmv-behind-the-science-lp-alt": {
-      "sessions": 3,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.6667,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/careers": {
-      "sessions": 78,
-      "engaged_sessions": 45,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.4231,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/customer-portal-profile-and-payments": {
-      "sessions": 16,
-      "engaged_sessions": 10,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.375,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-5-reasons-why-listicle-lp": {
-      "sessions": 19,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.9474,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/our-science": {
-      "sessions": 92,
-      "engaged_sessions": 65,
-      "purchases": 2,
-      "revenue": 117.44,
-      "cvr": 0.0217,
-      "bounce_rate": 0.2935,
-      "revenue_per_session": 1.2765,
-      "aov": 58.72
-    },
-    "/pages/supplements-designed-for-kids-with-adhd": {
-      "sessions": 13,
-      "engaged_sessions": 9,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3077,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-3-red-flags-lp-variant": {
-      "sessions": 6,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.8333,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/discounts-and-deals": {
-      "sessions": 163,
-      "engaged_sessions": 66,
-      "purchases": 3,
-      "revenue": 414.87,
-      "cvr": 0.0184,
-      "bounce_rate": 0.5951,
-      "revenue_per_session": 2.5452,
-      "aov": 138.29
-    },
-    "/pages/wds-listicle-product-5reasons-lp-competitors": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/prime-sales-event": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-new-multi-protection-lp": {
-      "sessions": 15,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.8,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/black-friday-hydration": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kcm-sales-melatonin-addon-lp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-ing-lp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-global-deficiency-among-kids-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-wellness-beauty-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-welcome-goodies-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/try-now-1": {
-      "sessions": 4,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.25,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-sales-exhaustion-lp": {
-      "sessions": 447,
-      "engaged_sessions": 126,
-      "purchases": 3,
-      "revenue": 183.31,
-      "cvr": 0.0067,
-      "bounce_rate": 0.7181,
-      "revenue_per_session": 0.4101,
-      "aov": 61.1
-    },
     "/pages/tdk-bfcm-sales-hiddenhunger-lp": {
       "sessions": 1426,
       "engaged_sessions": 890,
@@ -1096,15 +26,15 @@
       "revenue_per_session": 0.0219,
       "aov": 25.42
     },
-    "/pages/tdk-sales-behavior-hiddenhunger-spanish-lp": {
-      "sessions": 502,
-      "engaged_sessions": 91,
-      "purchases": 6,
-      "revenue": 263.6,
-      "cvr": 0.012,
-      "bounce_rate": 0.8187,
-      "revenue_per_session": 0.5251,
-      "aov": 43.93
+    "/pages/wds-sales-exhaustion-lp": {
+      "sessions": 447,
+      "engaged_sessions": 126,
+      "purchases": 3,
+      "revenue": 183.31,
+      "cvr": 0.0067,
+      "bounce_rate": 0.7181,
+      "revenue_per_session": 0.4101,
+      "aov": 61.1
     },
     "/pages/refer-a-friend": {
       "sessions": 725,
@@ -1116,25 +46,15 @@
       "revenue_per_session": 1.3086,
       "aov": 63.25
     },
-    "/pages/heavy-metals-and-pesticides": {
-      "sessions": 58,
-      "engaged_sessions": 28,
-      "purchases": 2,
-      "revenue": 154.61,
-      "cvr": 0.0345,
-      "bounce_rate": 0.5172,
-      "revenue_per_session": 2.6657,
-      "aov": 77.31
-    },
-    "/pages/our-ingredients\ud83d\ude0a": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
+    "/pages/tdk-sales-behavior-hiddenhunger-spanish-lp": {
+      "sessions": 502,
+      "engaged_sessions": 91,
+      "purchases": 6,
+      "revenue": 263.6,
+      "cvr": 0.012,
+      "bounce_rate": 0.8187,
+      "revenue_per_session": 0.5251,
+      "aov": 43.93
     },
     "/pages/tdk-behind-the-science-pu2-lp": {
       "sessions": 354,
@@ -1146,15 +66,25 @@
       "revenue_per_session": 1.2027,
       "aov": 53.22
     },
-    "/pages/subscribe-and-save": {
-      "sessions": 24,
-      "engaged_sessions": 20,
+    "/pages/tdk-sales-behavior-hiddenhunger-women-gift-lp": {
+      "sessions": 15,
+      "engaged_sessions": 10,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 0.1667,
+      "bounce_rate": 0.3333,
       "revenue_per_session": 0.0,
       "aov": 0.0
+    },
+    "/pages/heavy-metals-and-pesticides": {
+      "sessions": 58,
+      "engaged_sessions": 28,
+      "purchases": 2,
+      "revenue": 154.61,
+      "cvr": 0.0345,
+      "bounce_rate": 0.5172,
+      "revenue_per_session": 2.6657,
+      "aov": 77.31
     },
     "/pages/subscription": {
       "sessions": 95,
@@ -1166,26 +96,6 @@
       "revenue_per_session": 0.4885,
       "aov": 46.41
     },
-    "/pages/tdk-new-multi-no-junk-var2-lp": {
-      "sessions": 22,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.8636,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/trtb-potty-problems-lp": {
-      "sessions": 11,
-      "engaged_sessions": 7,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3636,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
     "/pages/is-your-family-nutrient-deficient": {
       "sessions": 18,
       "engaged_sessions": 15,
@@ -1196,23 +106,33 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/tdk-sales-behavior-hiddenhunger-women-gift-lp": {
-      "sessions": 15,
-      "engaged_sessions": 10,
+    "/pages/subscribe-and-save": {
+      "sessions": 24,
+      "engaged_sessions": 20,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 0.3333,
+      "bounce_rate": 0.1667,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/flex": {
+    "/pages/tdk-bts-lp": {
       "sessions": 1,
-      "engaged_sessions": 1,
+      "engaged_sessions": 0,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-new-multi-no-junk-var2-lp": {
+      "sessions": 22,
+      "engaged_sessions": 3,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.8636,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
@@ -1236,16 +156,6 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/wds-consolidated-lp": {
-      "sessions": 6,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
     "/pages/wds-mixed-pdp": {
       "sessions": 3,
       "engaged_sessions": 1,
@@ -1256,13 +166,33 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/kde-behind-th": {
-      "sessions": 3,
+    "/pages/wds-consolidated-lp": {
+      "sessions": 6,
       "engaged_sessions": 3,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/trtb-potty-problems-lp": {
+      "sessions": 11,
+      "engaged_sessions": 7,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3636,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/try-now-1": {
+      "sessions": 4,
+      "engaged_sessions": 3,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.25,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
@@ -1276,7 +206,7 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/tdk-bts-lp": {
+    "/pages/our-ingredients\ud83d\ude0a": {
       "sessions": 1,
       "engaged_sessions": 0,
       "purchases": 0,
@@ -1286,25 +216,1005 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/kde-behind-the-science-lp": {
-      "sessions": 1513,
-      "engaged_sessions": 135,
+    "/pages/kde-behind-th": {
+      "sessions": 3,
+      "engaged_sessions": 3,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 0.9108,
+      "bounce_rate": 0.0,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/4-Vitamins-I-Wish-I-Never-Bought": {
-      "sessions": 19614,
-      "engaged_sessions": 5527,
-      "purchases": 105,
-      "revenue": 6385.17,
-      "cvr": 0.0054,
-      "bounce_rate": 0.7182,
-      "revenue_per_session": 0.3255,
-      "aov": 60.81
+    "/pages/flex": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-pu-lp": {
+      "sessions": 1672,
+      "engaged_sessions": 620,
+      "purchases": 16,
+      "revenue": 764.08,
+      "cvr": 0.0096,
+      "bounce_rate": 0.6292,
+      "revenue_per_session": 0.457,
+      "aov": 47.76
+    },
+    "/pages/tdk-behind-the-science-lp": {
+      "sessions": 90096,
+      "engaged_sessions": 39914,
+      "purchases": 1105,
+      "revenue": 73453.22,
+      "cvr": 0.0123,
+      "bounce_rate": 0.557,
+      "revenue_per_session": 0.8153,
+      "aov": 66.47
+    },
+    "/pages/wds-sales-behavior-exhaustion-hero-2-lp": {
+      "sessions": 4,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-behind-the-science-lp-3": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-pdp": {
+      "sessions": 13,
+      "engaged_sessions": 6,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5385,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/cancelled-subscription": {
+      "sessions": 7,
+      "engaged_sessions": 7,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/get-nerdy-n": {
+      "sessions": 4,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.75,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-nbb-lp": {
+      "sessions": 3,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3333,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/sale-alt)": {
+      "sessions": 7,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.7143,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-sales-consolidated-clinical-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/making-our-vitamin": {
+      "sessions": 84,
+      "engaged_sessions": 55,
+      "purchases": 1,
+      "revenue": 111.0,
+      "cvr": 0.0119,
+      "bounce_rate": 0.3452,
+      "revenue_per_session": 1.3214,
+      "aov": 111.0
+    },
+    "/pages/start-subscribe-page": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/sale)at": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-wellness-beauty-try-lp": {
+      "sessions": 3326,
+      "engaged_sessions": 1305,
+      "purchases": 17,
+      "revenue": 942.82,
+      "cvr": 0.0051,
+      "bounce_rate": 0.6076,
+      "revenue_per_session": 0.2835,
+      "aov": 55.46
+    },
+    "/pages/black-friday-products": {
+      "sessions": 154,
+      "engaged_sessions": 90,
+      "purchases": 6,
+      "revenue": 237.43,
+      "cvr": 0.039,
+      "bounce_rate": 0.4156,
+      "revenue_per_session": 1.5418,
+      "aov": 39.57
+    },
+    "/pages/hidden-hunger": {
+      "sessions": 668,
+      "engaged_sessions": 315,
+      "purchases": 1,
+      "revenue": 33.15,
+      "cvr": 0.0015,
+      "bounce_rate": 0.5284,
+      "revenue_per_session": 0.0496,
+      "aov": 33.15
+    },
+    "/pages/about-us": {
+      "sessions": 230,
+      "engaged_sessions": 151,
+      "purchases": 6,
+      "revenue": 312.28,
+      "cvr": 0.0261,
+      "bounce_rate": 0.3435,
+      "revenue_per_session": 1.3577,
+      "aov": 52.05
+    },
+    "/pages/update-subscribe-page": {
+      "sessions": 73,
+      "engaged_sessions": 44,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3973,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/bundle-and-save": {
+      "sessions": 19,
+      "engaged_sessions": 13,
+      "purchases": 3,
+      "revenue": 286.22,
+      "cvr": 0.1579,
+      "bounce_rate": 0.3158,
+      "revenue_per_session": 15.0642,
+      "aov": 95.41
+    },
+    "/pages/tdk-behind-the-science-lp-alt": {
+      "sessions": 4986,
+      "engaged_sessions": 2502,
+      "purchases": 89,
+      "revenue": 6876.33,
+      "cvr": 0.0178,
+      "bounce_rate": 0.4982,
+      "revenue_per_session": 1.3791,
+      "aov": 77.26
+    },
+    "/pages/tdk-sales-hiddenhunger-lp": {
+      "sessions": 10,
+      "engaged_sessions": 7,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/back-2-school": {
+      "sessions": 4,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-sales-welcome-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kids-bundle-builder-lp-2": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/4-Vitamins-I-Wish-I-Never_bought": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-behind-the-science-video-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-recommended-by-phil-cowley-lp": {
+      "sessions": 8,
+      "engaged_sessions": 8,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/mcm-sale-producthero-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/reviews": {
+      "sessions": 268,
+      "engaged_sessions": 181,
+      "purchases": 9,
+      "revenue": 610.69,
+      "cvr": 0.0336,
+      "bounce_rate": 0.3246,
+      "revenue_per_session": 2.2787,
+      "aov": 67.85
+    },
+    "/pages/tdk-consoliated-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-multicart-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/contact-us": {
+      "sessions": 1923,
+      "engaged_sessions": 996,
+      "purchases": 5,
+      "revenue": 410.39,
+      "cvr": 0.0026,
+      "bounce_rate": 0.4821,
+      "revenue_per_session": 0.2134,
+      "aov": 82.08
+    },
+    "/pages/stick-with-it": {
+      "sessions": 6,
+      "engaged_sessions": 4,
+      "purchases": 1,
+      "revenue": 95.9,
+      "cvr": 0.1667,
+      "bounce_rate": 0.3333,
+      "revenue_per_session": 15.9833,
+      "aov": 95.9
+    },
+    "/pages/kcm-sale-producthero-lp-alt": {
+      "sessions": 6548,
+      "engaged_sessions": 2764,
+      "purchases": 35,
+      "revenue": 2349.97,
+      "cvr": 0.0053,
+      "bounce_rate": 0.5779,
+      "revenue_per_session": 0.3589,
+      "aov": 67.14
+    },
+    "/pages/tdk-5-reasons-why-listicle-lp": {
+      "sessions": 4571,
+      "engaged_sessions": 989,
+      "purchases": 12,
+      "revenue": 707.71,
+      "cvr": 0.0026,
+      "bounce_rate": 0.7836,
+      "revenue_per_session": 0.1548,
+      "aov": 58.98
+    },
+    "/pages/wcm-sale-producthero-lp": {
+      "sessions": 47,
+      "engaged_sessions": 24,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.4894,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-lp": {
+      "sessions": 86641,
+      "engaged_sessions": 39232,
+      "purchases": 734,
+      "revenue": 46930.38,
+      "cvr": 0.0085,
+      "bounce_rate": 0.5472,
+      "revenue_per_session": 0.5417,
+      "aov": 63.94
+    },
+    "/pages/1c3f47-behind-the-science-lp": {
+      "sessions": 4,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/trmv-behind-the-science-lp": {
+      "sessions": 9465,
+      "engaged_sessions": 5147,
+      "purchases": 106,
+      "revenue": 6864.79,
+      "cvr": 0.0112,
+      "bounce_rate": 0.4562,
+      "revenue_per_session": 0.7253,
+      "aov": 64.76
+    },
+    "/pages/vanishing-nutrients": {
+      "sessions": 12,
+      "engaged_sessions": 8,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3333,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-nbp-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-wellness-beauty-gift-offer-lp": {
+      "sessions": 17,
+      "engaged_sessions": 10,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.4118,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-sales-behavior-hiddenhunger-spanish-lp": {
+      "sessions": 24,
+      "engaged_sessions": 20,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.1667,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/mdp-sale-producthero-cross-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-behind-the-science-freq-lp": {
+      "sessions": 2,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-cross-lp": {
+      "sessions": 4,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/subscribe-save-50": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/4-Vitamins-I-Wish-I-Never-Bought-lp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/mdp-salehero-lp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-behind-the-science-ps-lp": {
+      "sessions": 5556,
+      "engaged_sessions": 1690,
+      "purchases": 46,
+      "revenue": 3010.92,
+      "cvr": 0.0083,
+      "bounce_rate": 0.6958,
+      "revenue_per_session": 0.5419,
+      "aov": 65.45
+    },
+    "/pages/free-eye-mask": {
+      "sessions": 45,
+      "engaged_sessions": 16,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.6444,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/vitamin-overconsumption": {
+      "sessions": 63,
+      "engaged_sessions": 37,
+      "purchases": 2,
+      "revenue": 91.21,
+      "cvr": 0.0317,
+      "bounce_rate": 0.4127,
+      "revenue_per_session": 1.4478,
+      "aov": 45.61
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-lander-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/our-ingredients": {
+      "sessions": 209,
+      "engaged_sessions": 136,
+      "purchases": 2,
+      "revenue": 97.04,
+      "cvr": 0.0096,
+      "bounce_rate": 0.3493,
+      "revenue_per_session": 0.4643,
+      "aov": 48.52
+    },
+    "/pages/wds-3-red-flags-lp": {
+      "sessions": 33,
+      "engaged_sessions": 11,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.6667,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/special-sale": {
+      "sessions": 27,
+      "engaged_sessions": 16,
+      "purchases": 1,
+      "revenue": 46.41,
+      "cvr": 0.037,
+      "bounce_rate": 0.4074,
+      "revenue_per_session": 1.7189,
+      "aov": 46.41
+    },
+    "/pages/kde-dr-mega-lp": {
+      "sessions": 4243,
+      "engaged_sessions": 1095,
+      "purchases": 79,
+      "revenue": 5137.33,
+      "cvr": 0.0186,
+      "bounce_rate": 0.7419,
+      "revenue_per_session": 1.2108,
+      "aov": 65.03
+    },
+    "/pages/calmer-kids-bundle": {
+      "sessions": 22,
+      "engaged_sessions": 16,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.2727,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-pdp": {
+      "sessions": 7,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.7143,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-pdp-v4": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-subscribe-123-lightning-lp": {
+      "sessions": 5,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.8,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-tbgift-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/learn": {
+      "sessions": 16,
+      "engaged_sessions": 8,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/memorial-day-sale": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 1,
+      "revenue": 53.57,
+      "cvr": 0.5,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 26.785,
+      "aov": 53.57
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-video-lp": {
+      "sessions": 3,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/trmv-mofu-listicle-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/bundle-and-save/sp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/how-were-made": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/prime-savings": {
+      "sessions": 3,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3333,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tgs-skin-sales-lp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/online-exclusive-offer": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-pu-lp": {
+      "sessions": 7844,
+      "engaged_sessions": 3618,
+      "purchases": 35,
+      "revenue": 2155.6,
+      "cvr": 0.0045,
+      "bounce_rate": 0.5388,
+      "revenue_per_session": 0.2748,
+      "aov": 61.59
+    },
+    "/pages/subscribe-and-save-15": {
+      "sessions": 4490,
+      "engaged_sessions": 2861,
+      "purchases": 204,
+      "revenue": 15158.72,
+      "cvr": 0.0454,
+      "bounce_rate": 0.3628,
+      "revenue_per_session": 3.3761,
+      "aov": 74.31
+    },
+    "/pages/wds-pdp": {
+      "sessions": 3,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.6667,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-behind-the-science-pu-lp": {
+      "sessions": 473,
+      "engaged_sessions": 157,
+      "purchases": 4,
+      "revenue": 225.41,
+      "cvr": 0.0085,
+      "bounce_rate": 0.6681,
+      "revenue_per_session": 0.4766,
+      "aov": 56.35
+    },
+    "/pages/kde-3-red-flags-lp": {
+      "sessions": 10548,
+      "engaged_sessions": 3346,
+      "purchases": 20,
+      "revenue": 1054.14,
+      "cvr": 0.0019,
+      "bounce_rate": 0.6828,
+      "revenue_per_session": 0.0999,
+      "aov": 52.71
+    },
+    "/pages/kcm-sale-producthero-lp": {
+      "sessions": 43341,
+      "engaged_sessions": 13815,
+      "purchases": 284,
+      "revenue": 19113.03,
+      "cvr": 0.0066,
+      "bounce_rate": 0.6812,
+      "revenue_per_session": 0.441,
+      "aov": 67.3
+    },
+    "/pages/faq": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-new-multi-no-junk-lp": {
+      "sessions": 3314,
+      "engaged_sessions": 1426,
+      "purchases": 51,
+      "revenue": 3150.08,
+      "cvr": 0.0154,
+      "bounce_rate": 0.5697,
+      "revenue_per_session": 0.9505,
+      "aov": 61.77
+    },
+    "/pages/kde-bad-ingredients-lp": {
+      "sessions": 289,
+      "engaged_sessions": 170,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.4118,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-behind-the-science-psup-lp": {
+      "sessions": 3514,
+      "engaged_sessions": 1258,
+      "purchases": 104,
+      "revenue": 7259.67,
+      "cvr": 0.0296,
+      "bounce_rate": 0.642,
+      "revenue_per_session": 2.0659,
+      "aov": 69.8
+    },
+    "/pages/kde-behind-the-science-nbpadd-lp": {
+      "sessions": 2,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/doctordeal": {
+      "sessions": 7,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.7143,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/customer-portal-order-history": {
+      "sessions": 22,
+      "engaged_sessions": 16,
+      "purchases": 1,
+      "revenue": 34.55,
+      "cvr": 0.0455,
+      "bounce_rate": 0.2727,
+      "revenue_per_session": 1.5705,
+      "aov": 34.55
+    },
+    "/pages/kde-behind-the-science-usp-lp": {
+      "sessions": 2,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-sales-behavior-hiddenhunger-bf-auto-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-advertorial-behavior-lp": {
+      "sessions": 5,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/customer-portal-upcoming-orders": {
+      "sessions": 3,
+      "engaged_sessions": 3,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/labor-day-collection": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-wellness-beaty-lp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-pdp-benefits-reviews": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/ccpa-privacy-policy": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/trmv-tofu-listicle-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/brain-bts-kids-teens": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-phils-lp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/about": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/contact": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
     },
     "/pages/kde-bfcm-behind-the-science-lp": {
       "sessions": 5468,
@@ -1316,6 +1226,26 @@
       "revenue_per_session": 0.4577,
       "aov": 62.57
     },
+    "/pages/4-Vitamins-I-Wish-I-Never-Bought": {
+      "sessions": 19614,
+      "engaged_sessions": 5527,
+      "purchases": 105,
+      "revenue": 6385.17,
+      "cvr": 0.0054,
+      "bounce_rate": 0.7182,
+      "revenue_per_session": 0.3255,
+      "aov": 60.81
+    },
+    "/pages/tdk-behind-the-science-put-lp": {
+      "sessions": 32,
+      "engaged_sessions": 8,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.75,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
     "/pages/kcm-sales-melatonin-lp": {
       "sessions": 2501,
       "engaged_sessions": 699,
@@ -1325,16 +1255,6 @@
       "bounce_rate": 0.7205,
       "revenue_per_session": 1.077,
       "aov": 69.07
-    },
-    "/pages/multivitamin-adhd-kids-teens": {
-      "sessions": 1116,
-      "engaged_sessions": 1000,
-      "purchases": 10,
-      "revenue": 489.94,
-      "cvr": 0.009,
-      "bounce_rate": 0.1039,
-      "revenue_per_session": 0.439,
-      "aov": 48.99
     },
     "/pages/kde-sales-behavior-hiddenhunger-lp": {
       "sessions": 611,
@@ -1354,7 +1274,7 @@
       "cvr": 0.0175,
       "bounce_rate": 0.0965,
       "revenue_per_session": 0.9185,
-      "aov": 52.36
+      "aov": 52.35
     },
     "/pages/kde-mood-hidden-hunger-lp": {
       "sessions": 98,
@@ -1366,46 +1286,6 @@
       "revenue_per_session": 1.5134,
       "aov": 74.16
     },
-    "/pages/why-families-are-switching-to-first-day-multivitamins": {
-      "sessions": 8,
-      "engaged_sessions": 8,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/first-day-multivitamins-with-superfood-blend": {
-      "sessions": 5,
-      "engaged_sessions": 4,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.2,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-behind-the-science-put-lp": {
-      "sessions": 32,
-      "engaged_sessions": 8,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.75,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-listicle-product-5reasons-lp": {
-      "sessions": 3,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
     "/pages/kde-sales-hiddenhunger-lp": {
       "sessions": 26,
       "engaged_sessions": 13,
@@ -1416,23 +1296,23 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/kde-behind-the-science-adds-lp": {
+    "/pages/why-families-are-switching-to-first-day-multivitamins": {
+      "sessions": 8,
+      "engaged_sessions": 8,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/trmv-new-lp": {
       "sessions": 1,
       "engaged_sessions": 0,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
       "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-brain-lp": {
-      "sessions": 5,
-      "engaged_sessions": 3,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.4,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
@@ -1446,6 +1326,46 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
+    "/pages/first-day-multivitamins-with-superfood-blend": {
+      "sessions": 5,
+      "engaged_sessions": 4,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.2,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/multivitamin-adhd-kids-teens": {
+      "sessions": 1116,
+      "engaged_sessions": 1000,
+      "purchases": 10,
+      "revenue": 489.94,
+      "cvr": 0.009,
+      "bounce_rate": 0.1039,
+      "revenue_per_session": 0.439,
+      "aov": 48.99
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-brain-lp": {
+      "sessions": 5,
+      "engaged_sessions": 3,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.4,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-adds-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
     "/pages/tdk-behind-the-science-trusted-lp": {
       "sessions": 2,
       "engaged_sessions": 1,
@@ -1453,6 +1373,16 @@
       "revenue": 0.0,
       "cvr": 0.0,
       "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-listicle-product-5reasons-lp": {
+      "sessions": 3,
+      "engaged_sessions": 3,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
@@ -1486,415 +1416,25 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/trmv-new-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
+    "/pages/mdp-sale-producthero-lp": {
+      "sessions": 44,
+      "engaged_sessions": 13,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 1.0,
+      "bounce_rate": 0.7045,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/kcm-sale-producthero-lp-alt": {
-      "sessions": 6548,
-      "engaged_sessions": 2764,
-      "purchases": 35,
-      "revenue": 2349.97,
-      "cvr": 0.0053,
-      "bounce_rate": 0.5779,
-      "revenue_per_session": 0.3589,
-      "aov": 67.14
-    },
-    "/pages/contact-us": {
-      "sessions": 1923,
-      "engaged_sessions": 996,
-      "purchases": 5,
-      "revenue": 410.39,
-      "cvr": 0.0026,
-      "bounce_rate": 0.4821,
-      "revenue_per_session": 0.2134,
-      "aov": 82.08
-    },
-    "/pages/tdk-5-reasons-why-listicle-lp": {
-      "sessions": 4571,
-      "engaged_sessions": 989,
-      "purchases": 12,
-      "revenue": 707.71,
-      "cvr": 0.0026,
-      "bounce_rate": 0.7836,
-      "revenue_per_session": 0.1548,
-      "aov": 58.98
-    },
-    "/pages/stick-with-it": {
-      "sessions": 6,
-      "engaged_sessions": 4,
-      "purchases": 1,
-      "revenue": 95.9,
-      "cvr": 0.1667,
-      "bounce_rate": 0.3333,
-      "revenue_per_session": 15.9833,
-      "aov": 95.9
-    },
-    "/pages/wcm-sale-producthero-lp": {
-      "sessions": 47,
-      "engaged_sessions": 24,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.4894,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/trmv-behind-the-science-lp": {
-      "sessions": 9465,
-      "engaged_sessions": 5147,
-      "purchases": 106,
-      "revenue": 6864.79,
-      "cvr": 0.0112,
-      "bounce_rate": 0.4562,
-      "revenue_per_session": 0.7253,
-      "aov": 64.76
-    },
-    "/pages/tdk-behind-the-science-freq-lp": {
-      "sessions": 2,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-sales-behavior-hiddenhunger-spanish-lp": {
-      "sessions": 24,
-      "engaged_sessions": 20,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.1667,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/vanishing-nutrients": {
-      "sessions": 12,
-      "engaged_sessions": 8,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3333,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/wds-wellness-beauty-gift-offer-lp": {
-      "sessions": 17,
-      "engaged_sessions": 10,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.4118,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/mdp-salehero-lp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/4-Vitamins-I-Wish-I-Never-Bought-lp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-nbp-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/subscribe-save-50": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-cross-lp": {
-      "sessions": 4,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/1c3f47-behind-the-science-lp": {
-      "sessions": 4,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/mdp-sale-producthero-cross-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-behind-the-science-ps-lp": {
-      "sessions": 5556,
-      "engaged_sessions": 1690,
-      "purchases": 46,
-      "revenue": 3010.92,
-      "cvr": 0.0083,
-      "bounce_rate": 0.6958,
-      "revenue_per_session": 0.5419,
-      "aov": 65.45
-    },
-    "/pages/kde-dr-mega-lp": {
-      "sessions": 4243,
-      "engaged_sessions": 1095,
-      "purchases": 79,
-      "revenue": 5137.33,
-      "cvr": 0.0186,
-      "bounce_rate": 0.7419,
-      "revenue_per_session": 1.2108,
-      "aov": 65.03
-    },
-    "/pages/our-ingredients": {
-      "sessions": 209,
-      "engaged_sessions": 136,
-      "purchases": 2,
-      "revenue": 97.04,
-      "cvr": 0.0096,
-      "bounce_rate": 0.3493,
-      "revenue_per_session": 0.4643,
-      "aov": 48.52
-    },
-    "/pages/tdk-pdp": {
-      "sessions": 7,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.7143,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/special-sale": {
-      "sessions": 27,
-      "engaged_sessions": 16,
-      "purchases": 1,
-      "revenue": 46.41,
-      "cvr": 0.037,
-      "bounce_rate": 0.4074,
-      "revenue_per_session": 1.7189,
-      "aov": 46.41
-    },
-    "/pages/wds-3-red-flags-lp": {
-      "sessions": 33,
-      "engaged_sessions": 11,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.6667,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/calmer-kids-bundle": {
-      "sessions": 22,
-      "engaged_sessions": 16,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.2727,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/free-eye-mask": {
-      "sessions": 45,
-      "engaged_sessions": 16,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.6444,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/learn": {
-      "sessions": 16,
-      "engaged_sessions": 8,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/vitamin-overconsumption": {
-      "sessions": 63,
-      "engaged_sessions": 37,
-      "purchases": 2,
-      "revenue": 91.21,
-      "cvr": 0.0317,
-      "bounce_rate": 0.4127,
-      "revenue_per_session": 1.4478,
-      "aov": 45.61
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-video-lp": {
-      "sessions": 3,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/memorial-day-sale": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 1,
-      "revenue": 53.57,
-      "cvr": 0.5,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 26.785,
-      "aov": 53.57
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-lander-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/online-exclusive-offer": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/how-were-made": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tgs-skin-sales-lp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/bundle-and-save/sp": {
-      "sessions": 1,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-tbgift-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-subscribe-123-lightning-lp": {
-      "sessions": 5,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.8,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-pdp-v4": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/prime-savings": {
-      "sessions": 3,
-      "engaged_sessions": 2,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.3333,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/trmv-mofu-listicle-lp": {
-      "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/tdk-sales-behavior-hiddenhunger-lp": {
-      "sessions": 19177,
-      "engaged_sessions": 11061,
-      "purchases": 237,
-      "revenue": 15166.6,
-      "cvr": 0.0124,
-      "bounce_rate": 0.4232,
-      "revenue_per_session": 0.7909,
-      "aov": 63.99
+    "/pages/loyalty-program": {
+      "sessions": 641,
+      "engaged_sessions": 300,
+      "purchases": 7,
+      "revenue": 348.54,
+      "cvr": 0.0109,
+      "bounce_rate": 0.532,
+      "revenue_per_session": 0.5437,
+      "aov": 49.79
     },
     "/pages/the-4-vitamins-i-wish-i-never-bought": {
       "sessions": 2691,
@@ -1916,15 +1456,15 @@
       "revenue_per_session": 0.3327,
       "aov": 64.94
     },
-    "/pages/loyalty-program": {
-      "sessions": 641,
-      "engaged_sessions": 300,
-      "purchases": 7,
-      "revenue": 348.54,
-      "cvr": 0.0109,
-      "bounce_rate": 0.532,
-      "revenue_per_session": 0.5437,
-      "aov": 49.79
+    "/pages/tdk-sales-behavior-hiddenhunger-lp": {
+      "sessions": 19177,
+      "engaged_sessions": 11061,
+      "purchases": 237,
+      "revenue": 15166.6,
+      "cvr": 0.0124,
+      "bounce_rate": 0.4232,
+      "revenue_per_session": 0.7909,
+      "aov": 63.99
     },
     "/pages/trtb-5-reasons-why-listicle-lp": {
       "sessions": 536,
@@ -1936,16 +1476,6 @@
       "revenue_per_session": 0.995,
       "aov": 76.19
     },
-    "/pages/tdk-5-reasons-why-listicle-lp-1": {
-      "sessions": 179,
-      "engaged_sessions": 91,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.4916,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
     "/pages/try-now": {
       "sessions": 48,
       "engaged_sessions": 31,
@@ -1956,45 +1486,25 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/tips-to-feed-your-picky-eaters": {
-      "sessions": 17,
-      "engaged_sessions": 10,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.4118,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/mdp-sale-producthero-lp": {
-      "sessions": 44,
-      "engaged_sessions": 13,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.7045,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/rewards": {
-      "sessions": 1,
+    "/pages/kde-behind-the-science-gifts-lp": {
+      "sessions": 2,
       "engaged_sessions": 1,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 0.0,
+      "bounce_rate": 0.5,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/tdk-sales-behavior-hiddenhunger-add-lp": {
+    "/pages/discounts-and-deals": {
       "sessions": 3,
       "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
+      "purchases": 1,
+      "revenue": 58.31,
+      "cvr": 0.3333,
       "bounce_rate": 0.6667,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
+      "revenue_per_session": 19.4367,
+      "aov": 58.31
     },
     "/pages/tracking": {
       "sessions": 23,
@@ -2016,23 +1526,13 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/neurodivergent": {
-      "sessions": 4,
+    "/pages/youve-now-been-added-to-our-priority-list": {
+      "sessions": 5,
       "engaged_sessions": 4,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
-      "bounce_rate": 0.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-behind-the-science-gifts-lp": {
-      "sessions": 2,
-      "engaged_sessions": 1,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.5,
+      "bounce_rate": 0.2,
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
@@ -2046,28 +1546,38 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/kde-hidden-hunger-advertorial-lp": {
+    "/pages/tdk-5-reasons-why-listicle-lp-1": {
+      "sessions": 179,
+      "engaged_sessions": 91,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.4916,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tips-to-feed-your-picky-eaters": {
+      "sessions": 17,
+      "engaged_sessions": 10,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.4118,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-add-lp": {
+      "sessions": 3,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.6667,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-wellness-bundle-lp": {
       "sessions": 1,
-      "engaged_sessions": 0,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 1.0,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/youve-now-been-added-to-our-priority-list": {
-      "sessions": 5,
-      "engaged_sessions": 4,
-      "purchases": 0,
-      "revenue": 0.0,
-      "cvr": 0.0,
-      "bounce_rate": 0.2,
-      "revenue_per_session": 0.0,
-      "aov": 0.0
-    },
-    "/pages/kde-sales-behavior-hiddenhunger-lander-lp": {
-      "sessions": 2,
       "engaged_sessions": 0,
       "purchases": 0,
       "revenue": 0.0,
@@ -2086,13 +1596,503 @@
       "revenue_per_session": 0.0,
       "aov": 0.0
     },
-    "/pages/wds-wellness-bundle-lp": {
+    "/pages/rewards": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-sales-behavior-hiddenhunger-lander-lp": {
+      "sessions": 2,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-hidden-hunger-advertorial-lp": {
       "sessions": 1,
       "engaged_sessions": 0,
       "purchases": 0,
       "revenue": 0.0,
       "cvr": 0.0,
       "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/neurodivergent": {
+      "sessions": 4,
+      "engaged_sessions": 4,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/careers": {
+      "sessions": 78,
+      "engaged_sessions": 45,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.4231,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-3-red-flags-lander-lp": {
+      "sessions": 3426,
+      "engaged_sessions": 1609,
+      "purchases": 27,
+      "revenue": 1389.3,
+      "cvr": 0.0079,
+      "bounce_rate": 0.5304,
+      "revenue_per_session": 0.4055,
+      "aov": 51.46
+    },
+    "/pages/customer-portal-profile-and-payments": {
+      "sessions": 16,
+      "engaged_sessions": 10,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.375,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-5-reasons-why-listicle-lp": {
+      "sessions": 19,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.9474,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-new-multi-protection-lp": {
+      "sessions": 15,
+      "engaged_sessions": 3,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.8,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/our-science": {
+      "sessions": 92,
+      "engaged_sessions": 65,
+      "purchases": 2,
+      "revenue": 117.44,
+      "cvr": 0.0217,
+      "bounce_rate": 0.2935,
+      "revenue_per_session": 1.2765,
+      "aov": 58.72
+    },
+    "/pages/supplements-designed-for-kids-with-adhd": {
+      "sessions": 13,
+      "engaged_sessions": 9,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3077,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-3-red-flags-lp-variant": {
+      "sessions": 6,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.8333,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/black-friday-hydration": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/trmv-behind-the-science-lp-alt": {
+      "sessions": 3,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.6667,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/prime-sales-event": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-welcome-goodies-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-behind-the-science-ing-lp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-wellness-beauty-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-global-deficiency-among-kids-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kcm-sales-melatonin-addon-lp": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-listicle-product-5reasons-lp-competitors": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-school-lp": {
+      "sessions": 866,
+      "engaged_sessions": 288,
+      "purchases": 15,
+      "revenue": 1248.65,
+      "cvr": 0.0173,
+      "bounce_rate": 0.6674,
+      "revenue_per_session": 1.4419,
+      "aov": 83.24
+    },
+    "/pages/tdk-behind-the-science-ps2-lp": {
+      "sessions": 5522,
+      "engaged_sessions": 1704,
+      "purchases": 53,
+      "revenue": 4372.09,
+      "cvr": 0.0096,
+      "bounce_rate": 0.6914,
+      "revenue_per_session": 0.7918,
+      "aov": 82.49
+    },
+    "/pages/kde-behind-the-science-lp-alt": {
+      "sessions": 10352,
+      "engaged_sessions": 4363,
+      "purchases": 105,
+      "revenue": 7090.18,
+      "cvr": 0.0101,
+      "bounce_rate": 0.5785,
+      "revenue_per_session": 0.6849,
+      "aov": 67.53
+    },
+    "/pages/tdk-behind-the-science-mthfr-lp": {
+      "sessions": 3557,
+      "engaged_sessions": 875,
+      "purchases": 32,
+      "revenue": 1798.11,
+      "cvr": 0.009,
+      "bounce_rate": 0.754,
+      "revenue_per_session": 0.5055,
+      "aov": 56.19
+    },
+    "/pages/black-friday-sale": {
+      "sessions": 2867,
+      "engaged_sessions": 1993,
+      "purchases": 150,
+      "revenue": 10891.56,
+      "cvr": 0.0523,
+      "bounce_rate": 0.3048,
+      "revenue_per_session": 3.7989,
+      "aov": 72.61
+    },
+    "/pages/sale": {
+      "sessions": 30664,
+      "engaged_sessions": 20097,
+      "purchases": 1849,
+      "revenue": 138074.9,
+      "cvr": 0.0603,
+      "bounce_rate": 0.3446,
+      "revenue_per_session": 4.5028,
+      "aov": 74.68
+    },
+    "/pages/sale-alt": {
+      "sessions": 1020,
+      "engaged_sessions": 501,
+      "purchases": 43,
+      "revenue": 2977.25,
+      "cvr": 0.0422,
+      "bounce_rate": 0.5088,
+      "revenue_per_session": 2.9189,
+      "aov": 69.24
+    },
+    "/pages/qr-code-packaging": {
+      "sessions": 162,
+      "engaged_sessions": 107,
+      "purchases": 9,
+      "revenue": 1003.82,
+      "cvr": 0.0556,
+      "bounce_rate": 0.3395,
+      "revenue_per_session": 6.1964,
+      "aov": 111.54
+    },
+    "/pages/amazon-kids-vitamin-listicle-lp": {
+      "sessions": 24061,
+      "engaged_sessions": 9806,
+      "purchases": 2,
+      "revenue": 131.09,
+      "cvr": 0.0001,
+      "bounce_rate": 0.5925,
+      "revenue_per_session": 0.0054,
+      "aov": 65.55
+    },
+    "/pages/tdk-sales-behavior-hiddenhunger-lp-alt": {
+      "sessions": 786,
+      "engaged_sessions": 255,
+      "purchases": 15,
+      "revenue": 959.86,
+      "cvr": 0.0191,
+      "bounce_rate": 0.6756,
+      "revenue_per_session": 1.2212,
+      "aov": 63.99
+    },
+    "/pages/kde-behind-the-science-ctv-lp": {
+      "sessions": 67,
+      "engaged_sessions": 41,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.3881,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/exclusive-first-day-offer": {
+      "sessions": 827,
+      "engaged_sessions": 772,
+      "purchases": 14,
+      "revenue": 1021.42,
+      "cvr": 0.0169,
+      "bounce_rate": 0.0665,
+      "revenue_per_session": 1.2351,
+      "aov": 72.96
+    },
+    "/pages/special-offer": {
+      "sessions": 28,
+      "engaged_sessions": 11,
+      "purchases": 1,
+      "revenue": 440.64,
+      "cvr": 0.0357,
+      "bounce_rate": 0.6071,
+      "revenue_per_session": 15.7371,
+      "aov": 440.64
+    },
+    "/pages/playground": {
+      "sessions": 32,
+      "engaged_sessions": 28,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.125,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/accessibility": {
+      "sessions": 31,
+      "engaged_sessions": 14,
+      "purchases": 1,
+      "revenue": 23.21,
+      "cvr": 0.0323,
+      "bounce_rate": 0.5484,
+      "revenue_per_session": 0.7487,
+      "aov": 23.21
+    },
+    "/pages/kde-consolidated-lp": {
+      "sessions": 7,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.7143,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/4-vitamins-i-wish-i-never-bought": {
+      "sessions": 45,
+      "engaged_sessions": 17,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.6222,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/sale)": {
+      "sessions": 63,
+      "engaged_sessions": 12,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.8095,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-new-multi-noobulkopen-lp": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/tdk-behind-the-science-gift-lp": {
+      "sessions": 8,
+      "engaged_sessions": 3,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.625,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-silent-crisis-lp": {
+      "sessions": 13,
+      "engaged_sessions": 4,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.6923,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/behind-the-science-lp": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/amazon-advertorial-test": {
+      "sessions": 2,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kde-sales-behavior-hiddenhunger-lp-2025-open": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/refer-a-friend)": {
+      "sessions": 2,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.5,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/wds-sales-exhaustion-add-on-lp": {
+      "sessions": 2,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/homepage-b": {
+      "sessions": 1,
+      "engaged_sessions": 0,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 1.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/kcm-sales-product-hero": {
+      "sessions": 1,
+      "engaged_sessions": 1,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
+      "revenue_per_session": 0.0,
+      "aov": 0.0
+    },
+    "/pages/a-brain-supplement-for-kids-with-trouble-concentrating-and-making-bad-grades": {
+      "sessions": 2,
+      "engaged_sessions": 2,
+      "purchases": 0,
+      "revenue": 0.0,
+      "cvr": 0.0,
+      "bounce_rate": 0.0,
       "revenue_per_session": 0.0,
       "aov": 0.0
     }
