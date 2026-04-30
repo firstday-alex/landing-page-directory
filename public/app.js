@@ -1,3 +1,5 @@
+const LS_KEY = 'lpd.filterTag.v1';
+
 const state = {
   rows: [],            // pages, enriched with metrics when available
   filtered: [],
@@ -7,6 +9,8 @@ const state = {
   search: '',
   tag: '',
   hideZero: false,
+  filterTag: '',       // when set, only pages tagged with this; grouped by other tags
+  collapsed: new Set(),
 };
 
 const fmt = {
@@ -32,6 +36,12 @@ async function loadPages() {
     document.getElementById('count').textContent = state.rows.length;
     document.getElementById('pagesGen').textContent =
       data.generated_at ? new Date(data.generated_at).toLocaleString() : 'never — run python refresh.py pages';
+
+    // Filter tag: localStorage override > config default > empty
+    const stored = localStorage.getItem(LS_KEY);
+    const initial = stored != null ? stored : (data.default_filter_tag || '');
+    state.filterTag = initial;
+    document.getElementById('filterTag').value = initial;
 
     populateTags();
     apply();
@@ -95,66 +105,183 @@ function populateTags() {
     tags.map((t) => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join('');
 }
 
-function apply() {
+// ─── Filtering + sorting ───
+function applyFilters(rows) {
   const q = state.search.trim().toLowerCase();
-  state.filtered = state.rows.filter((r) => {
+  return rows.filter((r) => {
     if (state.hideZero && (r.sessions || 0) === 0) return false;
     if (state.tag && !(r.tags || []).map((t) => t.toLowerCase()).includes(state.tag.toLowerCase())) return false;
     if (!q) return true;
     const hay = [r.title, r.url, r.handle, ...(r.tags || [])].join(' ').toLowerCase();
     return hay.includes(q);
   });
+}
 
-  state.filtered.sort((a, b) => {
-    const k = state.sortKey;
+function sortRows(rows) {
+  const k = state.sortKey;
+  const dir = state.sortDir === 'asc' ? 1 : -1;
+  return rows.slice().sort((a, b) => {
     let av = a[k], bv = b[k];
     if (k === 'tags') { av = (a.tags || []).join(','); bv = (b.tags || []).join(','); }
     if (av == null) av = '';
     if (bv == null) bv = '';
-    if (typeof av === 'string' && typeof bv === 'string') {
-      return state.sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
-    }
-    return state.sortDir === 'asc' ? av - bv : bv - av;
+    if (typeof av === 'string' && typeof bv === 'string') return av.localeCompare(bv) * dir;
+    return (av - bv) * dir;
   });
+}
 
+function apply() {
+  state.filtered = applyFilters(state.rows);
   render();
   updateSortIndicators();
 }
 
+// ─── Grouping ───
+// Pages must include `filterTag` (case-insensitive). Then group by every OTHER tag.
+// A page with N other tags appears in N groups. Pages with no other tags go to "(no other tags)".
+function buildGroups(rows, filterTag) {
+  const norm = filterTag.toLowerCase();
+  const groups = new Map();
+  const ungrouped = [];
+  for (const r of rows) {
+    const lowered = (r.tags || []).map((t) => t.toLowerCase());
+    if (!lowered.includes(norm)) continue;
+
+    const others = (r.tags || []).filter((t) => t.toLowerCase() !== norm);
+    if (others.length === 0) {
+      ungrouped.push(r);
+      continue;
+    }
+    for (const t of others) {
+      if (!groups.has(t)) groups.set(t, []);
+      groups.get(t).push(r);
+    }
+  }
+  if (ungrouped.length > 0) groups.set('(no other tags)', ungrouped);
+  return groups;
+}
+
+function aggregate(rows) {
+  const sessions = rows.reduce((s, r) => s + (r.sessions || 0), 0);
+  const engaged = rows.reduce((s, r) => s + (r.engaged_sessions || 0), 0);
+  const purchases = rows.reduce((s, r) => s + (r.purchases || 0), 0);
+  const revenue = rows.reduce((s, r) => s + (r.revenue || 0), 0);
+  return {
+    pages: rows.length,
+    sessions,
+    engaged_sessions: engaged,
+    purchases,
+    revenue,
+    cvr: sessions ? purchases / sessions : 0,
+    bounce_rate: sessions ? 1 - engaged / sessions : 0,
+    revenue_per_session: sessions ? revenue / sessions : 0,
+    aov: purchases ? revenue / purchases : 0,
+  };
+}
+
+function groupSortKey(g) {
+  // Sort groups by the same metric the user picked, derived from aggregates.
+  // Title sort = sort group keys alphabetically.
+  if (state.sortKey === 'title' || state.sortKey === 'tags') return g.key.toLowerCase();
+  if (state.sortKey === 'updated_at') return g.latest;
+  return g.agg[state.sortKey] ?? 0;
+}
+
+// ─── Render ───
 function render() {
   const tbody = document.getElementById('tbody');
   const empty = document.getElementById('empty');
-
-  if (state.filtered.length === 0) {
-    tbody.innerHTML = '';
-    if (state.rows.length > 0) empty.classList.remove('hidden');
-    return;
-  }
   empty.classList.add('hidden');
 
-  const metricsLoaded = state.metricsByPath !== null;
+  if (state.filtered.length === 0 && state.rows.length > 0) {
+    tbody.innerHTML = '';
+    empty.classList.remove('hidden');
+    return;
+  }
 
-  tbody.innerHTML = state.filtered.map((r) => {
-    const hasMetrics = metricsLoaded && r.sessions != null;
-    const cell = (val) => hasMetrics ? val : '<span class="skeleton">—</span>';
-    return `
-    <tr>
+  const metricsLoaded = state.metricsByPath !== null;
+  const cell = (hasMetrics, val) => hasMetrics ? val : '<span class="skeleton">—</span>';
+
+  if (state.filterTag) {
+    tbody.innerHTML = renderGrouped(state.filtered, metricsLoaded, cell);
+  } else {
+    const sorted = sortRows(state.filtered);
+    tbody.innerHTML = sorted.map((r) => renderRow(r, metricsLoaded, cell)).join('');
+  }
+}
+
+function renderGrouped(rows, metricsLoaded, cell) {
+  const groups = buildGroups(rows, state.filterTag);
+
+  if (groups.size === 0) {
+    document.getElementById('empty').classList.remove('hidden');
+    return '';
+  }
+
+  const groupArr = [...groups.entries()].map(([key, grows]) => ({
+    key,
+    rows: sortRows(grows),
+    agg: aggregate(grows),
+    latest: grows.reduce((acc, r) => (r.updated_at && r.updated_at > acc ? r.updated_at : acc), ''),
+  }));
+
+  const dir = state.sortDir === 'asc' ? 1 : -1;
+  groupArr.sort((a, b) => {
+    const av = groupSortKey(a), bv = groupSortKey(b);
+    if (typeof av === 'string' && typeof bv === 'string') return av.localeCompare(bv) * dir;
+    return (av - bv) * dir;
+  });
+
+  return groupArr.map((g) => {
+    const isCollapsed = state.collapsed.has(g.key);
+    const triangle = isCollapsed ? '▸' : '▾';
+    const a = g.agg;
+
+    const headerCells = `
+      <td class="num">${cell(metricsLoaded, fmt.int(a.sessions))}</td>
+      <td class="num">${cell(metricsLoaded, fmt.pct(a.cvr))}</td>
+      <td class="num">${cell(metricsLoaded, fmt.pct(a.bounce_rate))}</td>
+      <td class="num">${cell(metricsLoaded, fmt.money4(a.revenue_per_session))}</td>
+      <td class="num">${cell(metricsLoaded, fmt.money(a.aov))}</td>
+      <td class="num">${cell(metricsLoaded, fmt.money(a.revenue))}</td>
+      <td></td>`;
+
+    const header = `
+      <tr class="group-header" data-group-key="${escapeHtml(g.key)}">
+        <td colspan="3">
+          <span class="triangle">${triangle}</span>
+          <strong class="group-name">${escapeHtml(g.key)}</strong>
+          <span class="group-meta">${g.rows.length} page${g.rows.length === 1 ? '' : 's'} · tag <code>${escapeHtml(g.key)}</code></span>
+        </td>
+        ${headerCells}
+      </tr>`;
+
+    const body = isCollapsed
+      ? ''
+      : g.rows.map((r) => renderRow(r, metricsLoaded, cell, true)).join('');
+
+    return header + body;
+  }).join('');
+}
+
+function renderRow(r, metricsLoaded, cell, indent = false) {
+  const hasMetrics = metricsLoaded && r.sessions != null;
+  return `
+    <tr${indent ? ' class="grouped"' : ''}>
       <td>
         <div class="page-title">${escapeHtml(r.title || '(untitled)')}</div>
         <div class="page-url"><a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">${escapeHtml(r.url)}</a></div>
       </td>
       <td>${(r.tags || []).map((t) => `<span class="tag">${escapeHtml(t)}</span>`).join('') || '<span class="tag" style="opacity:.4">—</span>'}</td>
       <td>${fmt.date(r.updated_at)}</td>
-      <td class="num">${cell(fmt.int(r.sessions))}</td>
-      <td class="num">${cell(fmt.pct(r.cvr))}</td>
-      <td class="num">${cell(fmt.pct(r.bounce_rate))}</td>
-      <td class="num">${cell(fmt.money4(r.revenue_per_session))}</td>
-      <td class="num">${cell(fmt.money(r.aov))}</td>
-      <td class="num">${cell(fmt.money(r.revenue))}</td>
+      <td class="num">${cell(hasMetrics, fmt.int(r.sessions))}</td>
+      <td class="num">${cell(hasMetrics, fmt.pct(r.cvr))}</td>
+      <td class="num">${cell(hasMetrics, fmt.pct(r.bounce_rate))}</td>
+      <td class="num">${cell(hasMetrics, fmt.money4(r.revenue_per_session))}</td>
+      <td class="num">${cell(hasMetrics, fmt.money(r.aov))}</td>
+      <td class="num">${cell(hasMetrics, fmt.money(r.revenue))}</td>
       <td class="num"><button class="copy-btn" data-url="${escapeHtml(r.url)}">Copy URL</button></td>
-    </tr>
-  `;
-  }).join('');
+    </tr>`;
 }
 
 function updateSortIndicators() {
@@ -178,16 +305,24 @@ function escapeHtml(s) {
 }
 
 function exportCsv() {
-  const headers = ['title', 'url', 'tags', 'updated_at', 'sessions', 'cvr', 'bounce_rate', 'revenue_per_session', 'aov', 'revenue', 'purchases'];
+  const headers = ['group', 'title', 'url', 'tags', 'updated_at', 'sessions', 'cvr', 'bounce_rate', 'revenue_per_session', 'aov', 'revenue', 'purchases'];
   const lines = [headers.join(',')];
-  for (const r of state.filtered) {
-    const row = [
-      r.title, r.url, (r.tags || []).join('|'),
-      r.updated_at, r.sessions, r.cvr, r.bounce_rate,
-      r.revenue_per_session, r.aov, r.revenue, r.purchases,
-    ].map(csvCell).join(',');
-    lines.push(row);
+
+  const buildLine = (r, group) => [
+    group, r.title, r.url, (r.tags || []).join('|'),
+    r.updated_at, r.sessions, r.cvr, r.bounce_rate,
+    r.revenue_per_session, r.aov, r.revenue, r.purchases,
+  ].map(csvCell).join(',');
+
+  if (state.filterTag) {
+    const groups = buildGroups(state.filtered, state.filterTag);
+    for (const [key, rows] of groups) {
+      for (const r of sortRows(rows)) lines.push(buildLine(r, key));
+    }
+  } else {
+    for (const r of sortRows(state.filtered)) lines.push(buildLine(r, ''));
   }
+
   const blob = new Blob([lines.join('\n')], { type: 'text/csv' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
@@ -202,6 +337,7 @@ function csvCell(v) {
   return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
+// ─── Event handlers ───
 document.getElementById('search').addEventListener('input', (e) => {
   state.search = e.target.value;
   apply();
@@ -214,6 +350,16 @@ document.getElementById('tagFilter').addEventListener('change', (e) => {
 
 document.getElementById('hideZero').addEventListener('change', (e) => {
   state.hideZero = e.target.checked;
+  apply();
+});
+
+let filterTagDebounce;
+document.getElementById('filterTag').addEventListener('input', (e) => {
+  const v = e.target.value.trim();
+  state.filterTag = v;
+  state.collapsed.clear();
+  clearTimeout(filterTagDebounce);
+  filterTagDebounce = setTimeout(() => localStorage.setItem(LS_KEY, v), 250);
   apply();
 });
 
@@ -233,8 +379,20 @@ document.querySelectorAll('thead th[data-sort]').forEach((th) => {
 });
 
 document.addEventListener('click', async (e) => {
+  // Toggle group collapse
+  const groupHeader = e.target.closest('.group-header');
+  if (groupHeader) {
+    const key = groupHeader.dataset.groupKey;
+    if (state.collapsed.has(key)) state.collapsed.delete(key);
+    else state.collapsed.add(key);
+    apply();
+    return;
+  }
+
+  // Copy URL
   const btn = e.target.closest('.copy-btn');
   if (!btn) return;
+  e.stopPropagation();
   try {
     await navigator.clipboard.writeText(btn.dataset.url);
     const original = btn.textContent;

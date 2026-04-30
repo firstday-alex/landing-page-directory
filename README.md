@@ -21,6 +21,25 @@ GA4 property: `506029217` (BigQuery export in `data-stack-478719`)
 
 Date window is configurable (default: last 30 days).
 
+## Filter tag + auto-grouping
+
+Tags live on each page in the Shopify metafield `custom.tags` (List → Single line text). The dashboard expects one tag to act as a **scope filter** (e.g. `commerce`) and treats every other tag on the page as a **group label** (e.g. `kids`, `teens`, `brain`, `multivitamin`).
+
+Set the **Filter tag** input in the dashboard (or `default_filter_tag` in [config.json](config.example.json)) to control the scope.
+
+Example — with filter tag `commerce`:
+
+| Page tags | Result |
+| --- | --- |
+| `commerce, kids` | Shown, grouped under **kids** |
+| `commerce, kids, brain` | Shown, appears under both **kids** and **brain** |
+| `commerce` (no other tags) | Shown under **(no other tags)** |
+| `kids, brain` (no `commerce`) | Hidden |
+
+- Each group header shows totals: pages, sessions, weighted CVR/bounce, AOV, revenue
+- Click a group header to collapse / expand
+- The dashboard remembers your filter tag in `localStorage`, so it persists across reloads
+
 ## Local setup (one time)
 
 ```bash

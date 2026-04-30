@@ -98,6 +98,7 @@ header {
 }
 
 .controls input[type="search"] { min-width: 280px; }
+.controls input[type="text"] { min-width: 220px; }
 .controls input[type="search"]:focus,
 .controls select:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
 
@@ -221,6 +222,36 @@ td .page-url a:hover { color: var(--accent); text-decoration: underline; }
   border-radius: 3px;
   animation: pulse 1.4s ease-in-out infinite;
 }
+
+/* Group header rows */
+tbody tr.group-header {
+  background: var(--panel-2);
+  cursor: pointer;
+  border-top: 2px solid var(--border);
+}
+tbody tr.group-header:hover { background: var(--row-hover); }
+tbody tr.group-header td { padding: 12px 12px; font-weight: 500; }
+tbody tr.group-header .triangle {
+  display: inline-block;
+  width: 14px;
+  color: var(--muted);
+}
+tbody tr.group-header .group-name {
+  font-size: 14px;
+  margin-right: 10px;
+}
+tbody tr.group-header .group-meta {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+}
+tbody tr.group-header .group-meta code {
+  background: var(--bg);
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+tbody tr.grouped td:first-child { padding-left: 28px; }
 
 .empty, .error {
   text-align: center;

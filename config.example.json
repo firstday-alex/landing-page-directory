@@ -3,5 +3,6 @@
   "shopify_api_version": "2024-10",
   "gcp_project": "data-stack-478719",
   "ga4_property_id": "506029217",
-  "default_days": 30
+  "default_days": 30,
+  "default_filter_tag": "commerce"
 }
