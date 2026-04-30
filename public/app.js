@@ -25,13 +25,30 @@ const fmt = {
   },
 };
 
+// Merge metrics into rows by path. Idempotent — safe to call repeatedly.
+// Both loadPages() and loadMetrics() call this so the order of arrival doesn't matter.
+function mergeMetricsIntoRows() {
+  if (state.metricsByPath === null) return;
+  let matched = 0;
+  for (const r of state.rows) {
+    const m = state.metricsByPath[r.path];
+    if (m) {
+      Object.assign(r, m);
+      matched += 1;
+    }
+  }
+  if (state.rows.length && state.metricsByPath) {
+    console.debug(`[lp-directory] merged metrics: ${matched}/${state.rows.length} pages matched`);
+  }
+}
+
 // ─── Stage 1: load pages and render immediately ───
 async function loadPages() {
   try {
     const res = await fetch('pages.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    state.rows = (data.rows || []).map((r) => ({ ...r })); // metrics merged in stage 2
+    state.rows = (data.rows || []).map((r) => ({ ...r }));
 
     document.getElementById('count').textContent = state.rows.length;
     document.getElementById('pagesGen').textContent =
@@ -42,6 +59,9 @@ async function loadPages() {
     const initial = stored != null ? stored : (data.default_filter_tag || '');
     state.filterTag = initial;
     document.getElementById('filterTag').value = initial;
+
+    // If metrics already arrived first, merge them into the rows we just loaded.
+    mergeMetricsIntoRows();
 
     populateTags();
     apply();
@@ -59,10 +79,9 @@ async function loadMetrics() {
     const data = await res.json();
     state.metricsByPath = data.by_path || {};
 
-    for (const r of state.rows) {
-      const m = state.metricsByPath[r.path];
-      if (m) Object.assign(r, m);
-    }
+    // If pages already arrived first, this fills in their metric fields.
+    // If pages arrive later, loadPages() will call mergeMetricsIntoRows() too.
+    mergeMetricsIntoRows();
 
     const hasData = data.generated_at && data.window?.start && data.window?.end;
     statusEl.classList.remove('loading');

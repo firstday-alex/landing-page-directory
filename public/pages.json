@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T20:03:29.052205+00:00",
+  "generated_at": "2026-04-30T20:28:46.896983+00:00",
   "filter": {
     "tag": null
   },
@@ -883,8 +883,11 @@
       "handle": "tdk-school-lp",
       "url": "https://www.firstday.com/pages/tdk-school-lp",
       "path": "/pages/tdk-school-lp",
-      "tags": [],
-      "updated_at": "2026-04-21T22:45:34Z",
+      "tags": [
+        "commerce",
+        "teens"
+      ],
+      "updated_at": "2026-04-30T20:26:56Z",
       "published_at": "2026-02-19T20:19:56Z"
     },
     {
@@ -3903,8 +3906,11 @@
       "handle": "tdk-sales-behavior-hiddenhunger-lp",
       "url": "https://www.firstday.com/pages/tdk-sales-behavior-hiddenhunger-lp",
       "path": "/pages/tdk-sales-behavior-hiddenhunger-lp",
-      "tags": [],
-      "updated_at": "2026-04-18T15:54:14Z",
+      "tags": [
+        "commerce",
+        "teens"
+      ],
+      "updated_at": "2026-04-30T20:26:56Z",
       "published_at": "2026-04-08T22:51:00Z"
     },
     {
@@ -3913,8 +3919,11 @@
       "handle": "tdk-behind-the-science-lp",
       "url": "https://www.firstday.com/pages/tdk-behind-the-science-lp",
       "path": "/pages/tdk-behind-the-science-lp",
-      "tags": [],
-      "updated_at": "2026-04-24T00:29:15Z",
+      "tags": [
+        "commerce",
+        "teens"
+      ],
+      "updated_at": "2026-04-30T20:26:56Z",
       "published_at": "2026-03-03T20:39:26Z"
     },
     {
