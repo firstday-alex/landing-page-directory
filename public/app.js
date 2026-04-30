@@ -31,7 +31,7 @@ async function loadPages() {
 
     document.getElementById('count').textContent = state.rows.length;
     document.getElementById('pagesGen').textContent =
-      data.generated_at ? new Date(data.generated_at).toLocaleString() : '—';
+      data.generated_at ? new Date(data.generated_at).toLocaleString() : 'never — run python refresh.py pages';
 
     populateTags();
     apply();
@@ -54,13 +54,15 @@ async function loadMetrics() {
       if (m) Object.assign(r, m);
     }
 
-    if (data.window) {
-      statusEl.textContent = `${data.window.start} → ${data.window.end} (${data.window.days}d)`;
-    } else {
-      statusEl.textContent = 'loaded';
-    }
+    const hasData = data.generated_at && data.window?.start && data.window?.end;
     statusEl.classList.remove('loading');
-    statusEl.classList.add('ready');
+    if (hasData) {
+      statusEl.textContent = `${data.window.start} → ${data.window.end} (${data.window.days}d)`;
+      statusEl.classList.add('ready');
+    } else {
+      statusEl.textContent = 'no data yet — run python refresh.py metrics';
+      statusEl.classList.add('warn');
+    }
 
     // Default to ranking by sessions once we have them
     if (state.sortKey === 'title') {
