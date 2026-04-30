@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page Directory · First Day</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h1>Landing Page Directory</h1>
+      <p class="sub">First Day · published Shopify pages with GA4 performance</p>
+    </div>
+    <div class="meta">
+      <div><strong>Pages:</strong> <span id="count">—</span></div>
+      <div><strong>Pages refreshed:</strong> <span id="pagesGen">—</span></div>
+      <div id="metricsMeta">
+        <strong>Metrics:</strong>
+        <span id="metricsStatus" class="pill loading">loading…</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="controls">
+    <input type="search" id="search" placeholder="Search title, URL, or tag…" autofocus />
+    <select id="tagFilter"><option value="">All tags</option></select>
+    <label class="checkbox">
+      <input type="checkbox" id="hideZero" /> Hide pages with 0 sessions
+    </label>
+    <button id="exportCsv" type="button">Export CSV</button>
+  </section>
+
+  <main>
+    <table id="table">
+      <thead>
+        <tr>
+          <th data-sort="title">Page</th>
+          <th data-sort="tags">Tags</th>
+          <th data-sort="updated_at">Updated</th>
+          <th data-sort="sessions" class="num">Sessions</th>
+          <th data-sort="cvr" class="num">CVR</th>
+          <th data-sort="bounce_rate" class="num">Bounce</th>
+          <th data-sort="revenue_per_session" class="num">Rev/Session</th>
+          <th data-sort="aov" class="num">AOV</th>
+          <th data-sort="revenue" class="num">Revenue</th>
+          <th class="actions">Copy</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <p id="empty" class="empty hidden">No pages match.</p>
+    <p id="error" class="error hidden"></p>
+  </main>
+
+  <footer>
+    <small>
+      Pages: Shopify Admin API · Metrics: GA4 BigQuery export (<code>data-stack-478719</code>, last 30 days by default).
+      Refresh by running <code>python refresh.py</code> locally and redeploying.
+    </small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

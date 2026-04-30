@@ -1,0 +1,6 @@
+{
+  "generated_at": null,
+  "window": { "start": null, "end": null, "days": 30 },
+  "by_path": {},
+  "_note": "Placeholder. Run `python refresh.py metrics` to populate."
+}
