@@ -93,6 +93,8 @@ vercel --prod      # deploy
 
 `vercel.json` is already configured to serve `public/` as the site root with no build step.
 
+**Password gate:** the deployment is gated by a password served via Edge Middleware (`middleware.js`). Set `SITE_PASSWORD` as an environment variable in the Vercel project (Settings → Environment Variables, all environments). Login persists for 7 days via an HttpOnly cookie. To rotate, change `SITE_PASSWORD` — all existing sessions become invalid.
+
 **Updating data after deploy:**
 
 1. Run `python refresh.py` locally
